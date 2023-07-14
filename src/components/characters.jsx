@@ -187,13 +187,13 @@ const ThemeModeColors={
              <Pagination 
              count={countNumber}
              page={page}
+             variant="text"
              onChange={(event,newVal)=>{
                setPage(Number(newVal))
                setIsloading(true)
                setCharacters([])
              }}
              color="primary"
-             className="pagination"
              />
             
           ):('')}

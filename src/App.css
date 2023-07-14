@@ -74,6 +74,7 @@ span {
 .input:focus{
   outline:none;
 }
+
 @media only screen and (max-width: 425px) {
   .layout{
     margin-inline-start:1rem;

@@ -61,7 +61,7 @@ return(
   <Loader/>
       
    ):(
-<div>
+       <div>
          <Stack direction="column"justifyContent="space-between"alignItems="center"gap={3}> 
         <Typography variant="h6" color="primary"textAlign="center">
           <span>Episode name</span> : {name}
