@@ -63,7 +63,7 @@ return(
    ):(
 <div>
          <Stack direction="column"justifyContent="space-between"alignItems="center"gap={3}> 
-        <Typography variant="h6" color="primary">
+        <Typography variant="h6" color="primary"textAlign="center">
           <span>Episode name</span> : {name}
         </Typography>
         <Typography variant="body1" color="inherit">Air Date : {air_date}</Typography>
