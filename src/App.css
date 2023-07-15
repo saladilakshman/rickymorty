@@ -9,7 +9,7 @@
 .characters-layout{
   display:grid;
   grid-template-columns:repeat(4,14rem);
-  place-items:center;
+  place-items:baseline;
   grid-gap:5rem;
   margin-block-start:4rem;
 }
@@ -80,12 +80,10 @@ span {
     margin-inline-start:1rem;
    }    
    .characters-layout {
-    display:grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns:repeat(2,2fr);
     grid-gap:1rem;
-    place-items:baseline;
-    margin-block-start:4rem;
   }
+  
   .input{
     width:18rem;
   }
