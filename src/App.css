@@ -76,11 +76,11 @@ span {
 }
 
 @media only screen and (max-width: 425px) {
-   .layout{
+  .layout{
     margin-inline-start:1rem;
    }    
    .characters-layout {
-    grid-template-columns:repeat(2,2fr);
+    grid-template-columns:11rem 8.5rem;
     grid-gap:1rem;
   }
   
