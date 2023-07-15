@@ -4,14 +4,14 @@
 .layout {
   display:flex;
   justify-content:center;
-  align-items:center
+  align-items:center;
 }
-.characters-layout {
-  display: grid;
-  grid-template-columns: repeat(4,14rem);
-  place-items:baseline;
-  grid-gap: 5rem;
-  margin-block-start: 4rem;
+.characters-layout{
+  display:grid;
+  grid-template-columns:repeat(4,14rem);
+  place-items:center;
+  grid-gap:5rem;
+  margin-block-start:4rem;
 }
 span {
   font-family: helvetica;
@@ -76,12 +76,13 @@ span {
 }
 
 @media only screen and (max-width: 425px) {
-  .layout{
-    margin-inline-start:1rem;
-  }
+ 
   .characters-layout {
-    grid-template-columns: repeat(2, 2fr);
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
     grid-gap:1rem;
+    place-items:baseline;
+    margin-block-start:4rem;
   }
   .input{
     width:18rem;

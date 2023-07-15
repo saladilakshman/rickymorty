@@ -62,7 +62,7 @@ export default function Location(){
             ):(
                 <>
                 <Stack direction="column"justifyContent="space-around"alignItems="center"gap={2}>
-                <Typography variant="h6"color="primary">
+                <Typography variant="h6"color="primary"textAlign="center">
                  <span>Location</span> : {name}</Typography>
                 <Typography variant="body1"color="inherit">Dimension : {dimension}</Typography>
                 <Typography variant="body2"color="inherit">Type : {type}</Typography>
